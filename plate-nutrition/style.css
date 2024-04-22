@@ -17,7 +17,7 @@ body {
 .iphone .PLATE-NUTRITION {
     position: absolute;
     top: 10px;
-    left: 357px;
+    left: 300px;
     font-family: "synthemesc", sans-serif;
     font-weight: 400;
     color: #ec7641;
@@ -31,7 +31,7 @@ body {
     width: 377px;
     height: 361px;
     top: 193px;
-    left: 350px;
+    left: 300px;
     background-image: url(./img/asset-6.png);
     background-size: cover;
     background-position: 50% 50%;
@@ -83,7 +83,7 @@ body {
     width: 288px;
     height: 123px;
     top: 577px;
-    left: 391px;
+    left: 340px;
     background-color: #52b778;
     border-radius: 143.92px/61.57px;
 }
@@ -103,7 +103,7 @@ body {
     line-height: normal;
 }
 
-#rsvp:active{
+#rsvp:target{
     .overlap{
         box-shadow: 20px 10px 15px #403f7573;
     }
@@ -111,8 +111,8 @@ body {
 
 .iphone .a-lecture-series {
     position: absolute;
-    top: 700px;
-    left: 353px;
+    top: 715px;
+    left: 300px;
     font-family: "parisplus-sombre", sans-serif;
     font-weight: 400;
     color: #52b778;
