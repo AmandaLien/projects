@@ -4,7 +4,8 @@ body {
     flex-direction: row;
     justify-content: center;
     width: 100vw;
-    transform: scale(3);
+    transform: scale(2.5);
+    overflow-x: hidden;
 }
 
 .iphone .div {
@@ -69,12 +70,12 @@ body {
 }
 
 #img:active{
-    animation: reaction 3s infinite;
+    animation: reaction 3.5s infinite;
 }
 
 @keyframes reaction {
-    25% {transform: rotate(-30deg);}
-    50% {transform: rotate(30deg);}
+    50% {transform: rotate(-30deg);}
+    100% {transform: rotate(30deg);}
 }
 
 .iphone .overlap {
