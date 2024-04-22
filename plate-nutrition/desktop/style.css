@@ -1,0 +1,134 @@
+body {
+    background-color: #f2edd9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.desktop .overlap-group {
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    left: 180px;
+    transform: scale(0.7);
+}
+
+.desktop .asset {
+    position: absolute;
+    width: 765px;
+    height: 725px;
+    top: 134px;
+    left: 20px;
+}
+
+.desktop .asset-x {
+    position: absolute;
+    width: 285px;
+    height: 300px;
+    top: 463px;
+    left: 98px;
+}
+
+.desktop .img {
+    position: absolute;
+    width: 176px;
+    height: 220px;
+    top: 223px;
+    left: 172px;
+}
+
+.desktop .asset-2 {
+    position: absolute;
+    width: 175px;
+    height: 300px;
+    top: 191px;
+    left: 433px;
+}
+
+.desktop .asset-3 {
+    position: absolute;
+    width: 277px;
+    height: 219px;
+    top: 528px;
+    left: 415px;
+}
+
+#img:hover{
+    animation: reaction 2s infinite;
+}
+
+@keyframes reaction {
+    25% {transform: rotate(-30deg);}
+    50% {transform: rotate(30deg);}
+}
+
+.desktop .text-wrapper {
+    position: absolute;
+    top: -15px;
+    left: -110px;
+    font-family: "synthemesc", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ec7641;
+    font-size: 150px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .ellipse {
+    position: absolute;
+    width: 296px;
+    height: 147px;
+    top: 693px;
+    left: 595px;
+    background-color: #52b778;
+    border-radius: 148.12px/73.26px;
+}
+
+.desktop .text-wrapper-2 {
+    position: absolute;
+    width: 258px;
+    top: 739px;
+    left: 613px;
+    text-shadow: 4px 3px 4px #403f7573;
+    font-family: "synthemesc", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ec7641;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+#rsvp:hover{
+    .ellipse{
+        box-shadow: 20px 10px 15px #403f7573;
+    }
+}
+
+.desktop .p {
+    position: absolute;
+    top: 850px;
+    left: 50px;
+    font-family: "parisplus-sombre", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #52b778;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+#school{
+    list-style: none;
+    color: #52b778;
+}
+#school:visited{
+    color: #52b778;
+}
+
+
