@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
+    
     <link rel="stylesheet" href="https://use.typekit.net/biu7ees.css">
 
     <title>PLATE NUTRITION</title>
@@ -12,24 +13,40 @@
 <body>
     <div class="desktop">
         <div class="div">
+            
             <div class="overlap-group">
                 <img class="asset" src="../img/asset-6.png" />
+
                 <img id = "img" class="asset-x" src="../img/asset-4.png" />
                 <img id = "img" class="img" src="../img/asset-3.png" />
+                <div id= "info" class="greens">Fill half of your plate with fruits and  vegetables. 
+                    Choose colorful foods to  brighten your meal.
+                </div>
+
                 <img id = "img" class="asset-2" src="../img/asset-2.png" />
+                <div id = "info" class="wheat">Make a least 1/4 of your plate grains. 
+                    At least half of the grains should be whole grains.
+                </div>
+                
                 <img id = "img" class="asset-3" src="../img/asset-5.png" />
+                <div id="info" class="protein">Fill the rest of the plate with protein. 
+                    Choose proteins like  beans, nuts, tofu, fish, and lean or low-fat  meat and poultry.
+                </div>
+
                 <div class="text-wrapper">PLATE NUTRITION</div>
                 
-                <a id = "rsvp" href="link">
-                    <div class="ellipse"></div>
-                    <div class="text-wrapper-2">click to rsvp</div>
-                </a>
-                
+                <div class="intro">Attend free lectures to learn about healthy food choices!</div>
+
+                <button class="text-wrapper-2" onclick="appear()">click to rsvp</button>
                 
                 <p class="p">a lecture series hosted by <a id="school" href="https://www.newschool.edu/">the New School</a></p>
+
+                <input type="button" id= "button" value="click me" onclick="showInfo()">
             </div>
             
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

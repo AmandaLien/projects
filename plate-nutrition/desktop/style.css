@@ -7,6 +7,7 @@ body {
     
 }
 
+
 .desktop .overlap-group {
     position: absolute;
     width: 100%;
@@ -20,7 +21,7 @@ body {
     width: 765px;
     height: 725px;
     top: 134px;
-    left: 20px;
+    left: 30px;
 }
 
 .desktop .asset-x {
@@ -28,7 +29,7 @@ body {
     width: 285px;
     height: 300px;
     top: 463px;
-    left: 98px;
+    left: 108px;
 }
 
 .desktop .img {
@@ -36,7 +37,7 @@ body {
     width: 176px;
     height: 220px;
     top: 223px;
-    left: 172px;
+    left: 182px;
 }
 
 .desktop .asset-2 {
@@ -44,7 +45,7 @@ body {
     width: 175px;
     height: 300px;
     top: 191px;
-    left: 433px;
+    left: 443px;
 }
 
 .desktop .asset-3 {
@@ -52,7 +53,7 @@ body {
     width: 277px;
     height: 219px;
     top: 528px;
-    left: 415px;
+    left: 425px;
 }
 
 #img:hover{
@@ -64,10 +65,35 @@ body {
     50% {transform: rotate(30deg);}
 }
 
+#info{
+    position: absolute;
+    font-family: "parisplus-sombre", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    width: 20vw;
+    color:#499967;
+    line-height: 30px;
+    display: none;
+}
+.greens{
+    left: 108px;
+    top: 420px
+}
+.wheat{
+    top: 310px;
+    left: 430px;
+}
+.protein{
+    top: 540px;
+    left: 425px;
+}
+
+
 .desktop .text-wrapper {
     position: absolute;
-    top: -15px;
-    left: -110px;
+    top: -20px;
+    left: -120px;
     font-family: "synthemesc", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -77,47 +103,62 @@ body {
     line-height: normal;
 }
 
+.intro{
+    position: absolute;
+    font-family: "parisplus-sombre", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ec7641;
+    font-size: 2.3vw;
+    top: 730px;
+    left: -395px;
+    width: 340px;
+    text-align: center;
+}
+
 .desktop .ellipse {
     position: absolute;
     width: 296px;
     height: 147px;
     top: 693px;
-    left: 595px;
-    background-color: #52b778;
-    border-radius: 148.12px/73.26px;
+    left: 895px;
 }
+
+
 
 .desktop .text-wrapper-2 {
     position: absolute;
-    width: 258px;
-    top: 739px;
-    left: 613px;
-    text-shadow: 4px 3px 4px #403f7573;
+    width: 290px;
+    top: 709px;
+    left: 913px;
+    padding: 25px;
+    border-radius: 50%;
+    border-style: unset;
+    background-color: #6bbc80;
+    text-shadow: 4px 3px 4px #c05625;
     font-family: "synthemesc", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #ec7641;
+    color: #fdcd81;
     font-size: 40px;
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
 }
 
-#rsvp:hover{
-    .ellipse{
-        box-shadow: 20px 10px 15px #403f7573;
-    }
+.text-wrapper-2:hover{
+    box-shadow: 7px 6px 10px #52b7a57c;
 }
 
 .desktop .p {
     position: absolute;
     top: 850px;
-    left: 50px;
+    left: 120px;
     font-family: "parisplus-sombre", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #52b778;
-    font-size: 35px;
+    font-size: 2.15vw;
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
@@ -131,4 +172,15 @@ body {
     color: #52b778;
 }
 
-
+#button{
+    position: absolute;
+    font-family: "parisplus-sombre", sans-serif;
+    top: 790px;
+    left: 330px;
+    font-size: 35px;
+    border-style: none;
+    border-radius: 50%;
+    padding: 10px 15px 10px 15px;
+    background-color: #ec7641;
+    color: #f2edd9;
+}

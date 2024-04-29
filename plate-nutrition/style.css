@@ -53,6 +53,7 @@ body {
     top: 38px;
     left: 78px;
     animation: reaction 4s infinite;
+    font-size: 30px;
 }
 
 .iphone .img {
@@ -82,9 +83,9 @@ body {
     position: absolute;
     width: 288px;
     height: 123px;
-    top: 577px;
+    top: 650px;
     left: 340px;
-    background-color: #52b778;
+    background-color: #6bbc80;
     border-radius: 143.92px/61.57px;
     animation: button 2s infinite;
 }
@@ -94,10 +95,10 @@ body {
     width: 251px;
     top: 36px;
     left: 18px;
-    text-shadow: 4px 3px 4px #403f7573;
+    text-shadow: 4px 3px 4px #c05625;
     font-family: "synthemesc", sans-serif;
     font-weight: 400;
-    color: #ec7641;
+    color: #fdcd81;
     font-size: 40px;
     text-align: center;
     letter-spacing: 0;
@@ -105,17 +106,29 @@ body {
 }
 
 @keyframes button{
-    50%{box-shadow: 8px 10px 5px #403f7573;}
+    50%{box-shadow: 7px 6px 10px #52b7a57c;}
+}
+
+.intro{
+    position: absolute;
+    font-family: "parisplus-sombre", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ec7641;
+    font-size: 2.4vw;
+    width: 340px;
+    top: 575px;
+    left: 300px;
 }
 
 .iphone .a-lecture-series {
     position: absolute;
-    top: 715px;
+    top: 775px;
     left: 300px;
     font-family: "parisplus-sombre", sans-serif;
     font-weight: 400;
     color: #52b778;
-    font-size: 25px;
+    font-size: 2.3vw;
     letter-spacing: 0;
     line-height: normal;
 }
